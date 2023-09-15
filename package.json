@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "fastify": "^4.23.2",
+    "fastify-cors": "^6.1.0",
+    "web-push": "^3.6.6"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "build": "react-scripts build"
+  }
+}
