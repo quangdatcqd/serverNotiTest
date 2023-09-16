@@ -41,10 +41,10 @@ fastify.post('/send', async (request, reply) => {
 
 
 const app = Fastify({
-  https: {
-    key: fs.readFileSync('key.pem'),
-    cert: fs.readFileSync('cert.pem')
-  }
+  // https: {
+  //   key: fs.readFileSync('key.pem'),
+  //   cert: fs.readFileSync('cert.pem')
+  // }
 });
 
 app.get('/', (request, reply) => {
