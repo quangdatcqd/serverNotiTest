@@ -50,7 +50,7 @@ const app = Fastify({
 app.get('/', (request, reply) => {
   reply.send('Hello, World!');
 });
-app.listen(3000 ,"127.0.0.1", (err, address) => {
+app.listen(3000, (err, address) => {
   if (err) {
     console.error(err);
     process.exit(1);
